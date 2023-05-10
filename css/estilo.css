@@ -80,6 +80,7 @@ main {
 }
 
 .modelos-title {
+  font-family: "Viaoda Libre", cursive;
   font-size: 4rem;
 }
 
@@ -120,7 +121,8 @@ main {
 
 .details__title {
   font-family: "Viaoda Libre", cursive;
-  font-size: 5rem;
+  font-size: 4rem;
+  letter-spacing: 5px;
   text-transform: uppercase;
   margin: 0 0 2rem 0;
 }
