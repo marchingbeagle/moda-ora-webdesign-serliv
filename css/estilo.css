@@ -73,7 +73,7 @@ main {
 }
 
 .modelos {
-  width: 60%;
+  width: 90%;
   max-width: 960px;
   margin: 10rem auto;
   text-align: center;
@@ -93,8 +93,7 @@ main {
 .modelos-pecas {
   margin-top: 10rem;
   display: flex;
-  justify-content: center;
-  gap: 3rem;
+  justify-content: space-between;
 }
 
 .modelos-pecas-card__title {
