@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Viaoda+Libre&display=swap");
+
+:root {
+  --bg-color-header: #162028;
+  --text-color-menu: #425564;
+  --text-color: #555;
+  --box-color-details: #003d52;
+  --bg-color-footer: #0b171f;
+  --text-color-footer: #6f8597;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  margin: 0;
+}
+
+main {
+  margin: auto;
+}
+
+.hero {
+  background-color: var(--bg-color-header);
+  position: sticky;
+  top: 0;
+}
+
+.hero-main {
+  color: white;
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__title {
+  font-family: "Viaoda Libre", cursive;
+  font-size: 3rem;
+}
+
+.hero-list {
+  padding-inline-start: 0;
+  list-style-type: none;
+  margin: 20px 0;
+  display: flex;
+  gap: 6rem;
+}
+
+.hero-list__pages {
+  font-size: 2rem;
+  color: var(--text-color-menu);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.hero-list__pages:hover {
+  color: var(--text-color-footer);
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.topo__img {
+  display: block;
+  width: 100vw;
+}
+
+.modelos {
+  width: 60%;
+  max-width: 960px;
+  margin: 10rem auto;
+  text-align: center;
+}
+
+.modelos-title {
+  font-size: 4rem;
+}
+
+.modelos-description {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  letter-spacing: 1px;
+}
+
+.modelos-pecas {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.modelos-pecas-card__title {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.modelos-pecas-card__description {
+  font-size: 1.4rem;
+}
+
+.details {
+  background-color: var(--box-color-details);
+}
+
+.details-main {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15rem 0;
+  color: white;
+}
+
+.details__title {
+  font-family: "Viaoda Libre", cursive;
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin: 0 0 2rem 0;
+}
+
+.details__description {
+  width: 60%;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  line-height: 2.2rem;
+}
+
+.footer {
+  background-color: var(--bg-color-footer);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer__content {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: var(--text-color-footer);
+  padding: 2rem 0;
+  margin: 0;
+}
